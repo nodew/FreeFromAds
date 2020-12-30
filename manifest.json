@@ -1,0 +1,32 @@
+{
+    "name": "Ads Free",
+    "description": "Free you from all kinds of ads in web pages",
+    "manifest_version": 2,
+    "default_locale": "en",
+    "version": "0.0.1",
+    "background": {
+        "scripts": [
+            "scripts/background.js"
+        ]
+    },
+    "permissions": [
+        "*://weibo.com/*",
+        "activeTab",
+        "webRequest",
+        "webNavigation"
+    ],
+    "options_page": "views/options.html",
+    "options_ui": {
+        "page": "views/options.html"
+    },
+    "page_action": {
+        "default_title": "Ads free",
+        "default_popup": "views/popup.html"
+    },
+    "icons": {
+        "16": "assets/buysellads.png",
+        "32": "assets/buysellads.png",
+        "48": "assets/buysellads.png",
+        "128": "assets/buysellads.png"
+      }
+}
