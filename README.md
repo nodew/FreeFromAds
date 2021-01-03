@@ -9,6 +9,6 @@ If you're suffering from those inline ads provided by twitter/instagram/weibo/zh
 
 [] Add more site supports
 
-[] Package the extension for Chrome
+[] Pack the extension for Chrome
 
-[] Package the extension for Edge and firefox
+[] Pack the extension for Edge and firefox

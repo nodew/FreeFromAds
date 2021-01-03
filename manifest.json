@@ -24,12 +24,15 @@
     "page_action": {
         "default_title": "Ads free",
         "default_popup": "pages/popup/popup.html",
-        "default_icon": "assets/buysellads_inactive.png"
+        "default_icon": {
+            "16": "assets/buysellads_inactive-16.png",
+            "32": "assets/buysellads_inactive-32.png"
+        }
     },
     "icons": {
-        "16": "assets/buysellads.png",
-        "32": "assets/buysellads.png",
-        "48": "assets/buysellads.png",
-        "128": "assets/buysellads.png"
+        "16": "assets/buysellads_active-16.png",
+        "32": "assets/buysellads_active-32.png",
+        "48": "assets/buysellads_active-48.png",
+        "128": "assets/buysellads_active-128.png"
       }
 }
